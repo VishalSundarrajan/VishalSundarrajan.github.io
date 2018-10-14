@@ -92,7 +92,12 @@ EmilyLarkin.github.io $ git checkout master
 Already on 'master'
 Your branch is up-to-date with 'origin/master'.
 ```
+<<<<<<< HEAD
 **NOTE**: If there are any errors after `git fetch upstream`, please check for typos from previous step. If so, use `git remote rm upstream` and add the repo in upstream again
+=======
+**NOTE**: If there are any errors, please check for typos from previous step. If so, use `git remote rm upstream` and add the repo in upstream again
+
+>>>>>>> c2217a3fdd73d51890fdeda8f0bf742b93513ce2
 
 Then, use `git merge upstream/master` to merge the open-learning-exchange upstream/master with your local repository. It should look something like this:
 
